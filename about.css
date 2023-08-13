@@ -1,0 +1,366 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body
+{height: 1000px;}
+#icon4{
+    display:none;
+}
+header nav { 
+
+      position: fixed;
+      display: flex;
+    background-image: linear-gradient(135deg, black 40%, rgb(132, 23, 182));
+height: 10vh;
+width: 1700px;
+
+}
+header nav .logo{
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+    list-style-type: none;
+    width: 250px;
+margin-right: 350px;
+}
+header nav .logo img{
+width: 100%;
+} 
+header nav .navbar {
+    display: flex;
+
+}
+header nav .navbar ul{
+    list-style-type: none;
+    display: flex;
+margin-left: 300px;
+    right:20px;
+    
+
+
+
+}
+header nav .navbar ul li{
+    padding: 20px;
+    transition: all .5s;
+}
+header nav .navbar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+  
+
+}
+header nav .navbar ul li a:hover{
+font-weight: 200px;
+    color:white;
+    font-family: 'Lilita One', cursive;
+
+}
+ 
+header nav .navbar i{
+    line-height: 1;
+    border-radius: 50%;
+    padding: 10px;
+  margin-top: 10px;
+  float: right;
+  font-size: 25px;
+transition: all .5;
+color:white;
+}
+
+header nav .navbar i:hover{
+     color: rgb(219, 99, 213);
+     font-weight: 200px;
+     
+
+}
+
+
+
+#icon1{
+    margin-left: 100px;
+}
+#icon2{
+    float: right;
+}
+#icon3{
+    float: right;
+    margin-right: 30px;
+}
+.home{
+    background-attachment: fixed;
+    background-image: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4) ), url(./img.t9/background.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 260vh;
+    }
+    h2{
+    
+        color: rgb(241, 156, 215);
+        font-family: 'Courgette', cursive;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .container{
+        display: flex;
+            padding: 30px;
+            margin: 10px;
+            justify-content: space-between;
+            
+        
+        }
+        .item{
+            padding-left: 100px;
+            padding-right: 100px;
+            align-items: center;
+            text-align: center;
+            justify-content: space-between;
+            border-radius: 20px;
+            margin: 20px;
+            width: 800px;
+
+        }
+.sh{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Kalam', cursive;
+margin-bottom: 10px;
+
+}
+       .s1{
+        margin-top: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+    background-color: black;
+            color: white;
+            margin: auto;
+            font-family: Poppins,sans-serif;
+            text-shadow: 2px 2px 20px #805dff;
+            text-align: center;
+        padding-top: 80px;
+        height: 20vh;
+}
+.sp{
+    padding-left: 100px;
+    padding-right: 100px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+       
+.hero1{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.item i{
+    font-size: 80px;
+    text-shadow: 5px 5px 25px #805dff;
+}
+.ip{
+    margin-top: 10px;
+    color:#fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+
+
+
+
+
+h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #a6e4b9;
+    margin: 4px 10px;
+    text-align: left;
+}
+.a1{
+    margin-top: 40px;
+    letter-spacing: 1PX;
+    font-size: 15px;
+    margin-left: 200px;
+    text-align: left;
+color: rgba(202, 202, 202, 0.76);
+padding-bottom: 5px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.a2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px;
+    font-size: 40px;
+    color: white;
+}
+.cont{
+ width: 1500px;
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+
+ padding: 10px;
+}
+.row{
+margin: 10px;
+ display: flex;
+
+    
+}
+.img1{
+    float: left;
+    right: 50px;
+    padding-right: 90px;
+    width: 500px;
+    border-radius: 100px;
+padding-right: 0px
+}
+.img1 img{ 
+
+    border-radius: 50px;
+    width: 100%;
+}
+.talk{
+
+    left: 70px;
+    width: 600px;
+    display: block;
+    text-align: center;
+    align-items: center;
+
+}
+.row .rh,.rp{
+    float: left;
+    color: #fff;
+    text-shadow: 2px 2px 20px #805dff;
+}
+.rh{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 10px;
+}
+.rp{
+    padding-right: 10px;
+    font-weight: 200px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    background-color: rgb(13, 13, 13);
+    display: flex;
+    height: 40vh;
+}
+.hero4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.s3{
+
+    margin-left: 150px;
+    width: 400px;
+
+    padding-left: 60px;
+    height: 280px;
+}
+.fh{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding-right: 50px;
+    font-family: 'Lilita One', cursive;
+}
+.s3 .fp{
+    padding-top: 10px;
+    color: #fff;
+    text-align: left;
+
+}
+.s3 .fpp{
+    padding-top: 20px;
+    color: #fff;
+    text-align: left;
+}
+.s3 .fp2{
+    padding-top: 30px;
+    color:#fff;
+    text-align: left;
+
+}
+.s3 .fp3{
+    color: #43e94c;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 5px;
+
+}
+.s4{
+  
+    margin-left: 50px;
+    width: 300px;
+  
+    padding-left: 50px;
+    height: 280px;
+}
+
+.s4 .icons{
+    padding-top: 20px;
+    display: flex;
+    padding-left: 60px;
+    align-items: center;
+}
+.imgno{
+    display: none;
+}
+.no1,.no2{
+    display: none;
+}
+.s5{
+    margin-left: 50px;
+    width: 300px;
+
+    padding-left: 50px;
+    height: 280px;
+}
+.img2 img{
+width: 80px;
+}
+.img3 img{
+    width: 80px;
+    }
+.img2{
+    display: flex;
+    margin-left: 30px;
+}    
+.img3{
+    display: flex;
+    margin-left: 30px;
+}
+h6{
+    color:white;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.icons i{
+    padding: 10px;
+    background-color: #a347ce;
+    border-radius: 50px;
+    color: #fff;
+    margin: 2px;
+    
+}
+.icons i:hover{
+    padding: 15px;
+    background-color: #a347ce;
+    border-radius: 50px;
+    color: #fff;
+    margin: 2px;
+    
+}
